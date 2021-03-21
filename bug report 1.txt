@@ -1,0 +1,22 @@
+The line for entering an email in the "new user" tab does not recognize the changed language of an email (Cyrillic) when adding a user
+Pre-condition
+1.Open the website http://demo.guru99.com/v2/
+2.Log in like Manager with valid data: User ID : mngr307392 Password: ydapetA
+
+STR
+1. Choose New Customer inset 
+2.Fill in all lines
+Customer Name: John /Date of Birth 12.11.1990 /Address Giovanni ave /City Rome /State Italy / PIN 123458/ Mobile Number 11749381374 /E-mail патрикккк@gmail.com
+3. Click on “Submit” button
+
+Actual result
+The new customer was registered. Custom ID assigned. Notification about the wrong email was not displayed
+
+Expected result
+Notification about not a valid email should be displayed during customer's registration
+Adding a new client with invalid mail should be blocked
+
+
+Browser: Chrome, Version 88.0.4324.146 (Official assembly), (64 bit)
+OS: Windows 10 Home
+

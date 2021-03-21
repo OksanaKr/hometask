@@ -1,0 +1,27 @@
+The system allows to add new customers with a future date of birth and with a date of birth more than 2000 years ago in the "new customer" tab
+
+Pre-condition
+1.Open the website http://demo.guru99.com/v2/
+2.Log in like Manager with valid data: User ID : mngr307392 Password: ydapetA
+
+STR
+1. Choose New Customer inset
+2. Fill all lines
+Customer Name: Patrik /Date of Birth 12.05.2025 /Address Giovanni ave /City Rome /State Italy / 123456 /Mobile Number 21749381374 /E-mail patrik6@gmail.com
+3. Click on “Submit” button
+4. Check that customer added successfully
+5. Try to register once again by entering the following data
+Customer Name: Sammy /Date of Birth 01.01.0001 /Address Giovanni ave /City Rome /State Italy / 123456 /Mobile Number 21749381363 /E-mail patrik7@gmail.com Customer added successfully !!!. Generated Customer ID 93288
+6. Click on “Submit” button
+7. Check that customer added successfully
+
+Actual result
+The new customer with not valid date of birth was registered. Custom ID assigned. 
+
+Expected result
+Notification about not a valid date of birth should be displayed during customer's registration
+Registrations with a future date of birth and a date of birth more than 200 years ago should be blocked
+
+
+Browser: Chrome, Version 88.0.4324.146 (Official assembly), (64 bit)
+OS: Windows 10 Home
